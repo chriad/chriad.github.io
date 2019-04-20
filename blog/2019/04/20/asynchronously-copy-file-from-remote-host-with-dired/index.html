@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Tag Index - My Blog</title>
+    <title>Asynchronously copy file from remote host with dired - My Blog</title>
     <meta charset="utf-8" />
     <meta name="author" content="chriad" />
+    <meta name="description" content="&lt;TODO: insert your description here&gt;" />
+    <meta name="keywords" content="dired" />
     <link rel="stylesheet" href="/media/css/main.css" type="text/css">
     <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
   </head>
@@ -25,16 +27,40 @@
         </form>
       </header>
     </div>
+
+<div>
+<div class="post">
+<h1>Asynchronously copy file from remote host with dired</h1>
+<p>
+Today I had to copy a large file from a remote machine. The copying process is synchronous and blocked emacs.
+</p>
+
+<p>
+The solution was to use the emacs-async package. This is already installed with spacemacs, type <i>SPC h P &lt;async&gt;</i> to confirm.
+</p>
+
+<p>
+To make dired copy asynchronously, put the following into your config:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp">(autoload 'dired-async-mode "dired-async.el" nil t)
+(dired-async-mode 1)
+</pre>
+</div>
+
+</div>
+</div>
     <div>
-      <div class="post">
-        <h1>Tag Index</h1>
-        <ul class="org-ul">
-          <li><a href="/tags/insert-your-tags-here&gt;/">insert your tags here&gt; (3)</a></li>
-          <li><a href="/tags/&lt;todo/">&lt;TODO (3)</a></li>
-        </ul>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2019-04-20</span>
+        <span title="last modification date" class="post-info">2019-04-20</span>
+        <span title="tags" class="post-info"><a href="/tags/&lt;todo/">&lt;TODO</a>, <a href="/tags/insert-your-tags-here&gt;/">insert your tags here&gt;</a></span>
+        <span title="author" class="post-info">chriad</span>
       </div>
-    </div>
-    <div>
+      <section>
+        <h1>Comments</h1>
+      </section>
       <script src="//code.jquery.com/jquery-latest.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -49,5 +75,6 @@
         </p>
       </div>
     </div>
+
   </body>
 </html>
