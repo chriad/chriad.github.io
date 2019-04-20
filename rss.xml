@@ -4,8 +4,8 @@
     <title>My Blog</title>
     <link>http://chriad.github.io</link>
     <description>Spacemacs</description>
-    <pubDate>Sat, 20 Apr 2019 16:06:13 CEST</pubDate>
-    <lastBuildDate>Sat, 20 Apr 2019 16:06:13 CEST</lastBuildDate>
+    <pubDate>Sat, 20 Apr 2019 16:10:12 CEST</pubDate>
+    <lastBuildDate>Sat, 20 Apr 2019 16:10:12 CEST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -14,13 +14,6 @@
       <description><![CDATA[<TODO: insert your description here>]]></description>
       <pubDate>2019-04-20</pubDate>
       <guid>http://chriad.github.io/blog/2019/04/20/asynchronously-copy-file-from-remote-host-with-dired</guid>
-    </item>
-    <item>
-      <title>Test post</title>
-      <link>http://chriad.github.io/blog/2019/04/20/test-post</link>
-      <description><![CDATA[test]]></description>
-      <pubDate>2019-04-20</pubDate>
-      <guid>http://chriad.github.io/blog/2019/04/20/test-post</guid>
     </item>
     <item>
       <title>First useful piece of elisp</title>
