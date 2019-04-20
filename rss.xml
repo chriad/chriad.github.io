@@ -3,9 +3,9 @@
   <channel>
     <title>My Blog</title>
     <link>http://chriad.github.io</link>
-    <description>Things</description>
-    <pubDate>Sat, 20 Apr 2019 15:44:57 CEST</pubDate>
-    <lastBuildDate>Sat, 20 Apr 2019 15:44:57 CEST</lastBuildDate>
+    <description>Spacemacs</description>
+    <pubDate>Sat, 20 Apr 2019 16:06:13 CEST</pubDate>
+    <lastBuildDate>Sat, 20 Apr 2019 16:06:13 CEST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
