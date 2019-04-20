@@ -4,16 +4,16 @@
     <title>My Blog</title>
     <link>http://chriad.github.io</link>
     <description>Spacemacs</description>
-    <pubDate>Sat, 20 Apr 2019 10:30:37 CEST</pubDate>
-    <lastBuildDate>Sat, 20 Apr 2019 10:30:37 CEST</lastBuildDate>
+    <pubDate>Sat, 20 Apr 2019 10:35:57 CEST</pubDate>
+    <lastBuildDate>Sat, 20 Apr 2019 10:35:57 CEST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
-      <title>Tutorials for elisp</title>
-      <link>http://chriad.github.io/blog/2019/04/20/tutorials-for-elisp</link>
-      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <title>First useful piece of elisp</title>
+      <link>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</link>
+      <description><![CDATA[migros open function]]></description>
       <pubDate>2019-04-20</pubDate>
-      <guid>http://chriad.github.io/blog/2019/04/20/tutorials-for-elisp</guid>
+      <guid>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</guid>
     </item>
   </channel>
 </rss>
