@@ -4,8 +4,8 @@
     <title>My Blog</title>
     <link>http://chriad.github.io</link>
     <description>Spacemacs</description>
-    <pubDate>Sat, 20 Apr 2019 16:26:03 CEST</pubDate>
-    <lastBuildDate>Sat, 20 Apr 2019 16:26:03 CEST</lastBuildDate>
+    <pubDate>Sat, 20 Apr 2019 21:43:15 CEST</pubDate>
+    <lastBuildDate>Sat, 20 Apr 2019 21:43:15 CEST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -21,6 +21,13 @@
       <description><![CDATA[migros open function]]></description>
       <pubDate>2019-04-20</pubDate>
       <guid>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</guid>
+    </item>
+    <item>
+      <title>Get head around packages</title>
+      <link>http://chriad.github.io/blog/2019/04/20/get-head-around-packages</link>
+      <description><![CDATA[packages in spacemacs]]></description>
+      <pubDate>2019-04-20</pubDate>
+      <guid>http://chriad.github.io/blog/2019/04/20/get-head-around-packages</guid>
     </item>
     <item>
       <title>Embedding a video with org-page</title>
