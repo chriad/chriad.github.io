@@ -1,0 +1,18 @@
+#+TITLE:       My first useful interactive elisp function
+#+AUTHOR:      chriad
+#+EMAIL:       chriad.mueller@protonmail.com
+#+DATE:        2019-04-20 Sat
+#+URI:         /blog/%y/%m/%d/my-first-useful-interactive-elisp-function
+#+KEYWORDS:    elisp
+#+TAGS:        elisp
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: migros-function
+
+#+begin_src elisp
+  (defun chriad/migros-offen? ()
+    (interactive)
+    ((lambda ()(browse-url-firefox "https://filialen.migros.ch/de/migros-supermarkt-basel-burgfelder")  )
+     )
+    )
+#+end_src
