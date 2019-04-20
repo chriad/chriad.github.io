@@ -4,8 +4,8 @@
     <title>My Blog</title>
     <link>http://chriad.github.io</link>
     <description>Things</description>
-    <pubDate>Sat, 20 Apr 2019 15:27:41 CEST</pubDate>
-    <lastBuildDate>Sat, 20 Apr 2019 15:27:41 CEST</lastBuildDate>
+    <pubDate>Sat, 20 Apr 2019 15:44:57 CEST</pubDate>
+    <lastBuildDate>Sat, 20 Apr 2019 15:44:57 CEST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -28,6 +28,13 @@
       <description><![CDATA[migros open function]]></description>
       <pubDate>2019-04-20</pubDate>
       <guid>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</guid>
+    </item>
+    <item>
+      <title>Embedding a video with org-page</title>
+      <link>http://chriad.github.io/blog/2019/04/20/embedding-a-video-with-org-page</link>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2019-04-20</pubDate>
+      <guid>http://chriad.github.io/blog/2019/04/20/embedding-a-video-with-org-page</guid>
     </item>
   </channel>
 </rss>
