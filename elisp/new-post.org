@@ -9,6 +9,10 @@
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 #+DESCRIPTION: migros-function
 
+This is my first elisp snippet that could be useful.
+
+TODO: parse opening times
+
 #+begin_src elisp
   (defun chriad/migros-offen? ()
     (interactive)
