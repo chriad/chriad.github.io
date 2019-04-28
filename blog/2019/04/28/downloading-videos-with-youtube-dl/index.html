@@ -42,20 +42,12 @@ In bash .alias
 </div>
 
 <div class="org-src-container">
-<pre class="src src-bash">#!/bin/bash
-
-x=$(youtube-dl -e "$1" |sed -e 's/[^A-Za-z0-9._-]/_/g') 
+<pre class="src src-bash">x=$(youtube-dl -e "$1" |sed -e 's/[^A-Za-z0-9._-]/_/g') 
 mkdir $x
 cd $x
 youtube-dl --restrict-filenames --write-info-json --write-description --write-auto-sub "$1" --sub-lang en
 </pre>
 </div>
-
-
-
-<p>
-&lt;script src=&ldquo;<a href="http://gist-it.appspot.com/https://github.com/chriad/ARTE_grabber/blob/b8ebb3478a1f220d25887bf47f2eac336924ff77/src/ARTE_grabber.py#L20">http://gist-it.appspot.com/https://github.com/chriad/ARTE_grabber/blob/b8ebb3478a1f220d25887bf47f2eac336924ff77/src/ARTE_grabber.py#L20</a>&rdquo;&gt;&lt;/script&gt;
-</p>
 
 </div>
 </div>
