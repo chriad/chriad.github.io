@@ -42,7 +42,12 @@ In bash .alias
 </div>
 
 <div class="org-src-container">
-<pre class="src src-nillangnilswitchesnilflags">nilbody
+<pre class="src src-bash">#!/bin/bash
+
+x=$(youtube-dl -e "$1" |sed -e 's/[^A-Za-z0-9._-]/_/g') 
+mkdir $x
+cd $x
+youtube-dl --restrict-filenames --write-info-json --write-description --write-auto-sub "$1" --sub-lang en
 </pre>
 </div>
 
