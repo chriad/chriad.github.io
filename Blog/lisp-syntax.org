@@ -1,0 +1,20 @@
+#+TITLE:       Lisp syntax
+#+AUTHOR:      chriad
+#+EMAIL:       chriad.mueller@protonmail.com
+#+DATE:        2019-05-04 Sat
+#+URI:         /blog/%y/%m/%d/lisp-syntax
+#+KEYWORDS:    <TODO: insert your keywords here>
+#+TAGS:        <TODO: insert your tags here>
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+* Why lisp is so great!
+
+You only have to know very few rules to understand lisp syntax. Think about natural language understanding where you need to know hundreds of rules. Still with so little rules, the expressiveness is great.
+
+** Everything is a s-expressions (data as well as programs)
+** s-expressions are either atoms or lists
+** atoms are either symbols (symbolic atoms) or numbers (numeric atoms)
+
+That's it!
