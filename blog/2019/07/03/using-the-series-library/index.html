@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Using the series library - My Blog</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="chriad" />
+    <meta name="description" content="Blog to show how to use the series library" />
+    <meta name="keywords" content="lisp" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">My Blog</a></h1>
+        <p>Spacemacs</p>
+        <ul>
+          <li><a href="/beginning-lisp-development/">Beginning Lisp Development</a></li>
+          <li><a href="/tools/">Tools</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/ubuntu/">Ubuntu</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/chriad">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="//www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="chriad.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>Using the series library</h1>
+<p>
+In this post I what to introduce the lisp series library and the taps library.
+My interest in the series library was caused by the blog post ... Also, lazy evaluation, haskell -&gt; also in lisp? Is actually eager. With lisp you can build any language you&rsquo;d like.
+</p>
+<div id="outline-container-org7f613a6" class="outline-2">
+<h2 id="org7f613a6">Preparations</h2>
+<div class="outline-text-2" id="text-org7f613a6">
+<blockquote>
+<p>
+QL-SETUP:*QUICKLISP-HOME*
+  [symbol]
+</p>
+
+<p>
+<b>QUICKLISP-HOME</b> names a special variable:
+  Value: #P&ldquo;<i>home/chriad/quicklisp</i>&rdquo;
+</p>
+</blockquote>
+
+<p>
+slime
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org1d29223" class="outline-2">
+<h2 id="org1d29223">Installation</h2>
+<div class="outline-text-2" id="text-org1d29223">
+<p>
+quickload is automatically loaede.
+</p>
+
+<p>
+Is it part of quicklisp?
+(ql:system-apropos :series)
+</p>
+
+
+<p>
+CL-USER&gt; (ql:quickload &ldquo;series&rdquo;)
+To load &ldquo;series&rdquo;:
+  Install 1 Quicklisp release:
+    series
+; Fetching #&lt;URL &ldquo;<a href="http://beta.quicklisp.org/archive/series/2013-11-11/series-20131111-git.tgz">http://beta.quicklisp.org/archive/series/2013-11-11/series-20131111-git.tgz</a>&rdquo;&gt;
+; 148.31KB
+<code>================================================</code>
+151,865 bytes in 0.15 seconds (963.02KB/sec)
+; Loading &ldquo;series&rdquo;
+[package series]..................................
+..................................................
+............................................
+(&ldquo;series&rdquo;)
+CL-USER&gt; 
+</p>
+
+<p>
+Now go into the package
+</p>
+
+<p>
+CL-USER&gt; (in-package :series)
+#&lt;PACKAGE &ldquo;SERIES&rdquo;&gt;
+SERIES&gt; 
+</p>
+
+<p>
+Now lets try a few expression from cltl2
+</p>
+
+
+<p>
+SERIES&gt; (choose-if #&rsquo;symbolp #Z(1 2 1))
+</p>
+
+<p>
+This throws an error
+</p>
+
+<p>
+; Evaluation aborted on #&lt;SB-INT:SIMPLE-READER-ERROR &ldquo;no dispatch function defined for ~S&rdquo; {1003F7E4D3}&gt;.
+</p>
+
+<p>
+SERIES&gt; (install)
+</p>
+
+<p>
+SERIES&gt; (choose-if #&rsquo;symbolp #Z(1 2 1))
+#Z()
+</p>
+
+<p>
+Now it works!
+</p>
+
+<p>
+It seems make-series is not part of the original library
+</p>
+
+<p>
+(ql:where-is-system :series)
+#P&ldquo;<i>home/chriad/quicklisp/dists/quicklisp/software/series-20131111-git</i>&rdquo;
+</p>
+
+
+<hr />
+</div>
+</div>
+
+<div id="outline-container-org0a7e291" class="outline-2">
+<h2 id="org0a7e291">Series</h2>
+<div class="outline-text-2" id="text-org0a7e291">
+<p>
+checkout the taps library into ~/common-lisp
+</p>
+
+<p>
+(ql:quickload :taps)
+</p>
+
+<p>
+Does `taps` have a documentation that ships with it? 
+Using helm-slime-apropos does not give useful information.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org5073a98" class="outline-2">
+<h2 id="org5073a98">Taps</h2>
+<div class="outline-text-2" id="text-org5073a98">
+<p>
+First check out the repo
+</p>
+
+<p>
+(ql:where-is-system :taps)
+#P&ldquo;<i>home/chriad/common-lisp/taps</i>&rdquo;
+</p>
+
+<p>
+This is how asdf will find our library
+</p>
+
+<p>
+<a href="https://common-lisp.net/project/asdf/asdf/Configuring-ASDF-to-find-your-systems.html">https://common-lisp.net/project/asdf/asdf/Configuring-ASDF-to-find-your-systems.html</a>
+</p>
+
+<p>
+quicklisp will know about this location magically
+</p>
+
+<p>
+(ql:quickload :taps)
+</p>
+
+<p>
+But we cannot uninstall it with quickload...
+</p>
+
+<p>
+(asdf:locate-system :taps)
+T
+NIL
+#P&ldquo;/home/chriad/common-lisp/taps/taps.asd&rdquo;
+NIL
+NIL
+CL-USER&gt; (ql:where-is-system)
+; Evaluation aborted on #&lt;SB-INT:SIMPLE-PROGRAM-ERROR &ldquo;invalid number of arguments: ~S&rdquo; {100604BA43}&gt;.
+</p>
+
+<p>
+Maybe also -&gt; slime-load-file taps.asd -&gt; (ql:quickload :taps)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orged964d7" class="outline-2">
+<h2 id="orged964d7">Conclusion</h2>
+<div class="outline-text-2" id="text-orged964d7">
+<p>
+Bringing such a old library to life feels awsome. Using it to replace existing code feels good.
+</p>
+</div>
+</div>
+<div id="outline-container-org91fdbac" class="outline-2">
+<h2 id="org91fdbac">chennai</h2>
+<div class="outline-text-2" id="text-org91fdbac">
+<p>
+(ql:list-local-systems)
+-&gt; chennai
+</p>
+
+
+<p>
+(ql:list-local-systems)
+(&ldquo;chennai&rdquo;)
+QL&gt; (ql:list-local-projects)
+(#P&ldquo;/home/chriad/quicklisp/local-projects/chennai/chennai.asd&rdquo;)
+QL&gt; 
+</p>
+</div>
+</div>
+
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2019-07-03</span>
+        <span title="last modification date" class="post-info">2019-07-09</span>
+        <span title="tags" class="post-info"><a href="/tags/series/">series</a></span>
+        <span title="author" class="post-info">chriad</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+      </section>
+      <script src="//code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 26.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:chriad &lt;dot&gt; mueller &lt;at&gt; protonmail &lt;dot&gt; com">chriad</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
