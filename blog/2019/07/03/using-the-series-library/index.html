@@ -18,6 +18,7 @@
           <li><a href="/beginning-lisp-development/">Beginning Lisp Development</a></li>
           <li><a href="/tools/">Tools</a></li>
           <li><a href="/blog/">Blog</a></li>
+          <li><a href="/fontawesome-free-5112-web/">Fontawesome-Free-5.11.2-Web</a></li>
           <li><a href="/ubuntu/">Ubuntu</a></li>
           <li><a href="/tags/">Tags</a></li>
           <li><a href="/about/">About</a></li>
@@ -36,11 +37,11 @@
 <h1>Using the series library</h1>
 <p>
 In this post I what to introduce the lisp series library and the taps library.
-My interest in the series library was caused by the blog post ... Also, lazy evaluation, haskell -&gt; also in lisp? Is actually eager. With lisp you can build any language you&rsquo;d like.
+My interest in the series library was caused by the blog post ... Also, lazy evaluation, haskell -&gt; also in lisp? Is actually eager. With lisp you can build any language you'd like.
 </p>
-<div id="outline-container-org7f613a6" class="outline-2">
-<h2 id="org7f613a6">Preparations</h2>
-<div class="outline-text-2" id="text-org7f613a6">
+<div id="outline-container-org5e33030" class="outline-2">
+<h2 id="org5e33030">Preparations</h2>
+<div class="outline-text-2" id="text-org5e33030">
 <blockquote>
 <p>
 QL-SETUP:*QUICKLISP-HOME*
@@ -49,7 +50,7 @@ QL-SETUP:*QUICKLISP-HOME*
 
 <p>
 <b>QUICKLISP-HOME</b> names a special variable:
-  Value: #P&ldquo;<i>home/chriad/quicklisp</i>&rdquo;
+  Value: #P"<i>home/chriad/quicklisp</i>"
 </p>
 </blockquote>
 
@@ -60,9 +61,9 @@ slime
 </div>
 
 
-<div id="outline-container-org1d29223" class="outline-2">
-<h2 id="org1d29223">Installation</h2>
-<div class="outline-text-2" id="text-org1d29223">
+<div id="outline-container-orgd55a03b" class="outline-2">
+<h2 id="orgd55a03b">Installation</h2>
+<div class="outline-text-2" id="text-orgd55a03b">
 <p>
 quickload is automatically loaede.
 </p>
@@ -74,19 +75,19 @@ Is it part of quicklisp?
 
 
 <p>
-CL-USER&gt; (ql:quickload &ldquo;series&rdquo;)
-To load &ldquo;series&rdquo;:
+CL-USER&gt; (ql:quickload "series")
+To load "series":
   Install 1 Quicklisp release:
     series
-; Fetching #&lt;URL &ldquo;<a href="http://beta.quicklisp.org/archive/series/2013-11-11/series-20131111-git.tgz">http://beta.quicklisp.org/archive/series/2013-11-11/series-20131111-git.tgz</a>&rdquo;&gt;
+; Fetching #&lt;URL "<a href="http://beta.quicklisp.org/archive/series/2013-11-11/series-20131111-git.tgz">http://beta.quicklisp.org/archive/series/2013-11-11/series-20131111-git.tgz</a>"&gt;
 ; 148.31KB
 <code>================================================</code>
 151,865 bytes in 0.15 seconds (963.02KB/sec)
-; Loading &ldquo;series&rdquo;
+; Loading "series"
 [package series]..................................
 ..................................................
 ............................................
-(&ldquo;series&rdquo;)
+("series")
 CL-USER&gt; 
 </p>
 
@@ -96,7 +97,7 @@ Now go into the package
 
 <p>
 CL-USER&gt; (in-package :series)
-#&lt;PACKAGE &ldquo;SERIES&rdquo;&gt;
+#&lt;PACKAGE "SERIES"&gt;
 SERIES&gt; 
 </p>
 
@@ -106,7 +107,7 @@ Now lets try a few expression from cltl2
 
 
 <p>
-SERIES&gt; (choose-if #&rsquo;symbolp #Z(1 2 1))
+SERIES&gt; (choose-if #'symbolp #Z(1 2 1))
 </p>
 
 <p>
@@ -114,7 +115,7 @@ This throws an error
 </p>
 
 <p>
-; Evaluation aborted on #&lt;SB-INT:SIMPLE-READER-ERROR &ldquo;no dispatch function defined for ~S&rdquo; {1003F7E4D3}&gt;.
+; Evaluation aborted on #&lt;SB-INT:SIMPLE-READER-ERROR "no dispatch function defined for ~S" {1003F7E4D3}&gt;.
 </p>
 
 <p>
@@ -122,7 +123,7 @@ SERIES&gt; (install)
 </p>
 
 <p>
-SERIES&gt; (choose-if #&rsquo;symbolp #Z(1 2 1))
+SERIES&gt; (choose-if #'symbolp #Z(1 2 1))
 #Z()
 </p>
 
@@ -136,7 +137,7 @@ It seems make-series is not part of the original library
 
 <p>
 (ql:where-is-system :series)
-#P&ldquo;<i>home/chriad/quicklisp/dists/quicklisp/software/series-20131111-git</i>&rdquo;
+#P"<i>home/chriad/quicklisp/dists/quicklisp/software/series-20131111-git</i>"
 </p>
 
 
@@ -144,9 +145,9 @@ It seems make-series is not part of the original library
 </div>
 </div>
 
-<div id="outline-container-org0a7e291" class="outline-2">
-<h2 id="org0a7e291">Series</h2>
-<div class="outline-text-2" id="text-org0a7e291">
+<div id="outline-container-org22677ad" class="outline-2">
+<h2 id="org22677ad">Series</h2>
+<div class="outline-text-2" id="text-org22677ad">
 <p>
 checkout the taps library into ~/common-lisp
 </p>
@@ -163,16 +164,16 @@ Using helm-slime-apropos does not give useful information.
 </div>
 
 
-<div id="outline-container-org5073a98" class="outline-2">
-<h2 id="org5073a98">Taps</h2>
-<div class="outline-text-2" id="text-org5073a98">
+<div id="outline-container-org532fb31" class="outline-2">
+<h2 id="org532fb31">Taps</h2>
+<div class="outline-text-2" id="text-org532fb31">
 <p>
 First check out the repo
 </p>
 
 <p>
 (ql:where-is-system :taps)
-#P&ldquo;<i>home/chriad/common-lisp/taps</i>&rdquo;
+#P"<i>home/chriad/common-lisp/taps</i>"
 </p>
 
 <p>
@@ -199,11 +200,11 @@ But we cannot uninstall it with quickload...
 (asdf:locate-system :taps)
 T
 NIL
-#P&ldquo;/home/chriad/common-lisp/taps/taps.asd&rdquo;
+#P"/home/chriad/common-lisp/taps/taps.asd"
 NIL
 NIL
 CL-USER&gt; (ql:where-is-system)
-; Evaluation aborted on #&lt;SB-INT:SIMPLE-PROGRAM-ERROR &ldquo;invalid number of arguments: ~S&rdquo; {100604BA43}&gt;.
+; Evaluation aborted on #&lt;SB-INT:SIMPLE-PROGRAM-ERROR "invalid number of arguments: ~S" {100604BA43}&gt;.
 </p>
 
 <p>
@@ -212,17 +213,17 @@ Maybe also -&gt; slime-load-file taps.asd -&gt; (ql:quickload :taps)
 </div>
 </div>
 
-<div id="outline-container-orged964d7" class="outline-2">
-<h2 id="orged964d7">Conclusion</h2>
-<div class="outline-text-2" id="text-orged964d7">
+<div id="outline-container-orgc35e8e3" class="outline-2">
+<h2 id="orgc35e8e3">Conclusion</h2>
+<div class="outline-text-2" id="text-orgc35e8e3">
 <p>
 Bringing such a old library to life feels awsome. Using it to replace existing code feels good.
 </p>
 </div>
 </div>
-<div id="outline-container-org91fdbac" class="outline-2">
-<h2 id="org91fdbac">chennai</h2>
-<div class="outline-text-2" id="text-org91fdbac">
+<div id="outline-container-orgc1ff48d" class="outline-2">
+<h2 id="orgc1ff48d">chennai</h2>
+<div class="outline-text-2" id="text-orgc1ff48d">
 <p>
 (ql:list-local-systems)
 -&gt; chennai
@@ -231,10 +232,18 @@ Bringing such a old library to life feels awsome. Using it to replace existing c
 
 <p>
 (ql:list-local-systems)
-(&ldquo;chennai&rdquo;)
+("chennai")
 QL&gt; (ql:list-local-projects)
-(#P&ldquo;/home/chriad/quicklisp/local-projects/chennai/chennai.asd&rdquo;)
+(#P"/home/chriad/quicklisp/local-projects/chennai/chennai.asd")
 QL&gt; 
+</p>
+</div>
+</div>
+<div id="outline-container-org25ff9c6" class="outline-2">
+<h2 id="org25ff9c6">example</h2>
+<div class="outline-text-2" id="text-org25ff9c6">
+<p>
+stream of probability distributions, data and params to eval
 </p>
 </div>
 </div>
@@ -244,7 +253,7 @@ QL&gt;
     <div>
       <div class="post-meta">
         <span title="post date" class="post-info">2019-07-03</span>
-        <span title="last modification date" class="post-info">2019-07-09</span>
+        <span title="last modification date" class="post-info">2019-12-03</span>
         <span title="tags" class="post-info"><a href="/tags/series/">series</a></span>
         <span title="author" class="post-info">chriad</span>
       </div>
@@ -256,7 +265,7 @@ QL&gt;
       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
       <script src="/media/js/main.js"></script>
       <div class="footer">
-        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 26.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 28.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
         <p>
           Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:chriad &lt;dot&gt; mueller &lt;at&gt; protonmail &lt;dot&gt; com">chriad</a>
           &nbsp;&nbsp;-&nbsp;&nbsp;

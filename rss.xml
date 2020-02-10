@@ -4,13 +4,27 @@
     <title>My Blog</title>
     <link>http://chriad.github.io</link>
     <description>Spacemacs</description>
-    <pubDate>Tue, 09 Jul 2019 09:04:19 CEST</pubDate>
-    <lastBuildDate>Tue, 09 Jul 2019 09:04:19 CEST</lastBuildDate>
+    <pubDate>Mon, 10 Feb 2020 09:57:40 CET</pubDate>
+    <lastBuildDate>Mon, 10 Feb 2020 09:57:40 CET</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
+      <title>Schneewittchen</title>
+      <link>http://chriad.github.io/blog/2019/12/06/schneewittchen</link>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2020-02-10</pubDate>
+      <guid>http://chriad.github.io/blog/2019/12/06/schneewittchen</guid>
+    </item>
+    <item>
+      <title>Using the series library</title>
+      <link>http://chriad.github.io/blog/2019/07/03/using-the-series-library</link>
+      <description><![CDATA[Blog to show how to use the series library]]></description>
+      <pubDate>2019-12-03</pubDate>
+      <guid>http://chriad.github.io/blog/2019/07/03/using-the-series-library</guid>
+    </item>
+    <item>
       <title>Untitled</title>
-      <link>http://chriad.github.io/blog/2019/07/09/untitled/</link>
+      <link>http://chriad.github.io/blog/2020/02/10/untitled/</link>
       <description><![CDATA[<div>
 <div class="post">
 <h1>Untitled</h1>
@@ -18,12 +32,12 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org97a330e">1. <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></li>
+<li><a href="#org6a750e8">1. <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org97a330e" class="outline-2">
-<h2 id="org97a330e"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: <a href="https://endlessparentheses.com/improving-projectile-with-extra-commands.html">https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></h2>
+<div id="outline-container-org6a750e8" class="outline-2">
+<h2 id="org6a750e8"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: <a href="https://endlessparentheses.com/improving-projectile-with-extra-commands.html">https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Stack exchange flair
@@ -34,7 +48,7 @@ Stack exchange flair
 </div>
 </div>]]></description>
       <pubDate>2019-07-09</pubDate>
-      <guid>http://chriad.github.io/blog/2019/07/09/untitled/</guid>
+      <guid>http://chriad.github.io/blog/2020/02/10/untitled/</guid>
     </item>
     <item>
       <title>jupyter notebooks with emacs</title>
@@ -42,13 +56,6 @@ Stack exchange flair
       <description><![CDATA[<TODO: insert your description here>]]></description>
       <pubDate>2019-07-09</pubDate>
       <guid>http://chriad.github.io/blog/2019/07/09/jupyter-notebooks-with-emacs</guid>
-    </item>
-    <item>
-      <title>Using the series library</title>
-      <link>http://chriad.github.io/blog/2019/07/03/using-the-series-library</link>
-      <description><![CDATA[Blog to show how to use the series library]]></description>
-      <pubDate>2019-07-09</pubDate>
-      <guid>http://chriad.github.io/blog/2019/07/03/using-the-series-library</guid>
     </item>
     <item>
       <title>Embedding a video with org-page</title>
@@ -91,13 +98,6 @@ Stack exchange flair
       <description><![CDATA[migros open function]]></description>
       <pubDate>2019-04-20</pubDate>
       <guid>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</guid>
-    </item>
-    <item>
-      <title>Get head around packages</title>
-      <link>http://chriad.github.io/blog/2019/04/20/get-head-around-packages</link>
-      <description><![CDATA[packages in spacemacs]]></description>
-      <pubDate>2019-04-20</pubDate>
-      <guid>http://chriad.github.io/blog/2019/04/20/get-head-around-packages</guid>
     </item>
   </channel>
 </rss>
