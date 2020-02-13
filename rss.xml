@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>Chriads blog</title>
+    <title>My Blog</title>
     <link>http://chriad.github.io</link>
-    <description>About programming and stuff</description>
-    <pubDate>Mon, 10 Feb 2020 10:30:42 CET</pubDate>
-    <lastBuildDate>Mon, 10 Feb 2020 10:30:42 CET</lastBuildDate>
+    <description>Spacemacs</description>
+    <pubDate>Thu, 13 Feb 2020 16:42:37 CET</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2020 16:42:37 CET</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>cheatsheet </title>
+      <link>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</link>
+      <description><![CDATA[migros open function]]></description>
+      <pubDate>2020-02-13</pubDate>
+      <guid>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</guid>
+    </item>
+    <item>
+      <title>cheatsheet </title>
+      <link>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</link>
+      <description><![CDATA[migros open function]]></description>
+      <pubDate>2020-02-13</pubDate>
+      <guid>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</guid>
+    </item>
+    <item>
+      <title>What to read</title>
+      <link>http://chriad.github.io/blog/2020/02/13/what-to-read</link>
+      <description><![CDATA[What everyone should read]]></description>
+      <pubDate>2020-02-13</pubDate>
+      <guid>http://chriad.github.io/blog/2020/02/13/what-to-read</guid>
+    </item>
     <item>
       <title>Schneewittchen</title>
       <link>http://chriad.github.io/blog/2019/12/06/schneewittchen</link>
@@ -24,7 +45,7 @@
     </item>
     <item>
       <title>Untitled</title>
-      <link>http://chriad.github.io/blog/2020/02/10/untitled/</link>
+      <link>http://chriad.github.io/blog/2020/02/13/untitled/</link>
       <description><![CDATA[<div>
 <div class="post">
 <h1>Untitled</h1>
@@ -32,12 +53,12 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org76cb06b">1. <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></li>
+<li><a href="#org8bb6512">1. <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org76cb06b" class="outline-2">
-<h2 id="org76cb06b"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: <a href="https://endlessparentheses.com/improving-projectile-with-extra-commands.html">https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></h2>
+<div id="outline-container-org8bb6512" class="outline-2">
+<h2 id="org8bb6512"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: <a href="https://endlessparentheses.com/improving-projectile-with-extra-commands.html">https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Stack exchange flair
@@ -48,7 +69,7 @@ Stack exchange flair
 </div>
 </div>]]></description>
       <pubDate>2019-07-09</pubDate>
-      <guid>http://chriad.github.io/blog/2020/02/10/untitled/</guid>
+      <guid>http://chriad.github.io/blog/2020/02/13/untitled/</guid>
     </item>
     <item>
       <title>jupyter notebooks with emacs</title>
@@ -77,27 +98,6 @@ Stack exchange flair
       <description><![CDATA[<TODO: insert your description here>]]></description>
       <pubDate>2019-04-28</pubDate>
       <guid>http://chriad.github.io/blog/2019/04/28/downloading-videos-with-youtube-dl</guid>
-    </item>
-    <item>
-      <title>Make lisp more understandable</title>
-      <link>http://chriad.github.io/blog/2019/04/21/make-lisp-more-understandable</link>
-      <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2019-04-21</pubDate>
-      <guid>http://chriad.github.io/blog/2019/04/21/make-lisp-more-understandable</guid>
-    </item>
-    <item>
-      <title>Asynchronously copy file from remote host with dired</title>
-      <link>http://chriad.github.io/blog/2019/04/20/asynchronously-copy-file-from-remote-host-with-dired</link>
-      <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2019-04-20</pubDate>
-      <guid>http://chriad.github.io/blog/2019/04/20/asynchronously-copy-file-from-remote-host-with-dired</guid>
-    </item>
-    <item>
-      <title>First useful piece of elisp</title>
-      <link>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</link>
-      <description><![CDATA[migros open function]]></description>
-      <pubDate>2019-04-20</pubDate>
-      <guid>http://chriad.github.io/blog/2019/04/20/first-useful-piece-of-elisp</guid>
     </item>
   </channel>
 </rss>
