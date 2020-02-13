@@ -4,8 +4,8 @@
     <title>My Blog</title>
     <link>http://chriad.github.io</link>
     <description>Spacemacs</description>
-    <pubDate>Thu, 13 Feb 2020 16:42:37 CET</pubDate>
-    <lastBuildDate>Thu, 13 Feb 2020 16:42:37 CET</lastBuildDate>
+    <pubDate>Thu, 13 Feb 2020 16:47:50 CET</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2020 16:47:50 CET</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -28,6 +28,13 @@
       <description><![CDATA[What everyone should read]]></description>
       <pubDate>2020-02-13</pubDate>
       <guid>http://chriad.github.io/blog/2020/02/13/what-to-read</guid>
+    </item>
+    <item>
+      <title>Downloading videos with youtube-dl</title>
+      <link>http://chriad.github.io/blog/2019/04/28/downloading-videos-with-youtube-dl</link>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2020-02-13</pubDate>
+      <guid>http://chriad.github.io/blog/2019/04/28/downloading-videos-with-youtube-dl</guid>
     </item>
     <item>
       <title>Schneewittchen</title>
@@ -53,12 +60,12 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org8bb6512">1. <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></li>
+<li><a href="#orgac990cf">1. <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8bb6512" class="outline-2">
-<h2 id="org8bb6512"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: <a href="https://endlessparentheses.com/improving-projectile-with-extra-commands.html">https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></h2>
+<div id="outline-container-orgac990cf" class="outline-2">
+<h2 id="orgac990cf"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: <a href="https://endlessparentheses.com/improving-projectile-with-extra-commands.html">https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Stack exchange flair
@@ -91,13 +98,6 @@ Stack exchange flair
       <description><![CDATA[<TODO: insert your description here>]]></description>
       <pubDate>2019-06-27</pubDate>
       <guid>http://chriad.github.io/blog/2019/06/27/lisp-development</guid>
-    </item>
-    <item>
-      <title>Downloading videos with youtube-dl</title>
-      <link>http://chriad.github.io/blog/2019/04/28/downloading-videos-with-youtube-dl</link>
-      <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2019-04-28</pubDate>
-      <guid>http://chriad.github.io/blog/2019/04/28/downloading-videos-with-youtube-dl</guid>
     </item>
   </channel>
 </rss>
