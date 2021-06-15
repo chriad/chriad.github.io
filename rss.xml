@@ -2,10 +2,10 @@
 <rss version="2.0">
   <channel>
     <title>My Blog</title>
-    <link>http://chriad.github.io</link>
+    <link>http://chriad.github.io/</link>
     <description>Spacemacs</description>
-    <pubDate>So, 06 Jun 2021 20:44:54 CEST</pubDate>
-    <lastBuildDate>So, 06 Jun 2021 20:44:54 CEST</lastBuildDate>
+    <pubDate>Di, 15 Jun 2021 20:18:31 CEST</pubDate>
+    <lastBuildDate>Di, 15 Jun 2021 20:18:31 CEST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -45,7 +45,7 @@
     </item>
     <item>
       <title>Untitled</title>
-      <link>http://chriad.github.io/blog/2021/06/06/untitled/</link>
+      <link>http://chriad.github.io/blog/2021/06/15/untitled/</link>
       <description><![CDATA[<div>
 <div class="post">
 <h1>Untitled</h1>
@@ -53,12 +53,12 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org68fbbbd">1. <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></li>
+<li><a href="#orgc43eda2">1. <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org68fbbbd" class="outline-2">
-<h2 id="org68fbbbd"><span class="section-number-2">1.</span> <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: <a href="https://endlessparentheses.com/improving-projectile-with-extra-commands.html">https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></h2>
+<div id="outline-container-orgc43eda2" class="outline-2">
+<h2 id="orgc43eda2"><span class="section-number-2">1.</span> <span class="todo TODO">TODO</span> Integrate a stack exchange logo like in this site: <a href="https://endlessparentheses.com/improving-projectile-with-extra-commands.html">https://endlessparentheses.com/improving-projectile-with-extra-commands.html</a></h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Stack exchange flair
@@ -69,7 +69,7 @@ Stack exchange flair
 </div>
 </div>]]></description>
       <pubDate>2019-07-09</pubDate>
-      <guid>http://chriad.github.io/blog/2021/06/06/untitled/</guid>
+      <guid>http://chriad.github.io/blog/2021/06/15/untitled/</guid>
     </item>
     <item>
       <title>jupyter notebooks with emacs</title>
